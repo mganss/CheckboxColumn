@@ -1,0 +1,30 @@
+.selectColumnHeader {
+    width: 12px;
+    list-style-image: url('chrome://checkbox/skin/header.svg');    
+}
+
+#threadTree treechildren::-moz-tree-row {
+    height: 24px;
+}
+
+#threadTree.largeFont treechildren::-moz-tree-row {
+    height: 48px;
+}
+
+#threadTree.largeFont treechildren::-moz-tree-cell-text {
+    font-size: 133%;
+}
+
+treechildren::-moz-tree-image(selectCol) {
+    width: 20px;
+    list-style-image: url('chrome://checkbox/skin/uncheck.svg');
+}
+
+#threadTree.largeFont treechildren::-moz-tree-image(selectCol) {
+    width: 32px;
+}
+
+treechildren::-moz-tree-image(selectCol, selected)
+{
+    list-style-image: url('chrome://checkbox/skin/check.svg');    
+}
