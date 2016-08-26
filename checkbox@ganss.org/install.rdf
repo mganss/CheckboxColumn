@@ -13,7 +13,7 @@
     <em:description>Adds a checkbox column to the list of messages, making it easier to select multiple messages on devices with a touchscreen display.</em:description>
     <em:optionsURL>chrome://checkbox/content/options.xul</em:optionsURL>
     <em:optionsType>2</em:optionsType>
-    <em:homepageURL>https://www.updatestar.com/dl/emoji/emoji.html</em:homepageURL>
+    <em:homepageURL>https://www.updatestar.com/dl/checkbox/checkbox.html</em:homepageURL>
    
     <em:targetApplication>
       <Description>
