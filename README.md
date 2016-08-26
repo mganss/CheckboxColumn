@@ -8,5 +8,10 @@ This can be turned off in the extension's settings.
 
 ## Screenshots
 
+### Large Font (default)
+
 ![Checkbox column with large font](images/largeFont.png "Large Font")
+
+### Regular Font
+
 ![Checkbox column with regular font](images/smallFont.png "Regular Font")
