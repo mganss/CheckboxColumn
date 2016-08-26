@@ -9,4 +9,4 @@ This can be turned off in the extension's settings.
 ## Screenshots
 
 ![Checkbox column with large font](images/largeFont.png "Large Font")
-![Checkbox column with regular font](images/regularFont.png "Regular Font")
+![Checkbox column with regular font](images/smallFont.png "Regular Font")
