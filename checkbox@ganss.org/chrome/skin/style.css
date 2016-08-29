@@ -1,6 +1,14 @@
 .selectColumnHeader {
     width: 12px;
-    list-style-image: url('chrome://checkbox/skin/header.svg');    
+    list-style-image: url('chrome://checkbox/skin/uncheckHeader.svg');    
+}
+
+.selectColumnHeader.all {
+    list-style-image: url('chrome://checkbox/skin/checkHeader.svg');
+}
+
+.selectColumnHeader.some {
+    list-style-image: url('chrome://checkbox/skin/someHeader.svg');
 }
 
 #threadTree treechildren::-moz-tree-row {

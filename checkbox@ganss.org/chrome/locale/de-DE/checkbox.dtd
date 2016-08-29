@@ -1,3 +1,4 @@
 <!ENTITY selectCol.label "Ausgewählt">
+<!ENTITY selectCol.tooltiptext "Auswahl umschalten">
 <!ENTITY options.largeFontTitle "Große Schriftart">
 <!ENTITY options.largeFontDesc "Eine große Schriftart in der Nachrichtenliste verwenden">
