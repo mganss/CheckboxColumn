@@ -11,10 +11,6 @@
     list-style-image: url('chrome://checkbox/skin/someHeader.svg');
 }
 
-#threadTree treechildren::-moz-tree-row {
-    height: 24px;
-}
-
 #threadTree.largeFont treechildren::-moz-tree-row {
     height: 48px;
 }
@@ -24,7 +20,7 @@
 }
 
 treechildren::-moz-tree-image(selectCol) {
-    width: 20px;
+    width: 16px;
     list-style-image: url('chrome://checkbox/skin/uncheck.svg');
 }
 
