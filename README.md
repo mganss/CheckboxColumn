@@ -6,6 +6,10 @@ This can be turned off in the extension's settings.
 
 ## Installation
 
+In Thunderbird, go to Tools → Add-ons → Extensions and search for "Checkbox" in the search box in the upper right-hand corner. In the result list, click Install on the right side.
+
+You can also download the add-on from its [detail page at Mozilla](https://addons.mozilla.org/thunderbird/addon/checkbox-column/) and then install using the [instructions here](http://kb.mozillazine.org/Extensions_(Thunderbird)).
+
 ## Screenshots
 
 ### Large Font (default)
