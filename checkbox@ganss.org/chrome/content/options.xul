@@ -1,5 +1,21 @@
 <?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/preferences/preferences.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://checkbox/locale/checkbox.dtd" >
-<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="bool" pref="extensions.checkbox.largeFont" title="&options.largeFontTitle;" desc="&options.largeFontDesc;" />
-</vbox>
+ 
+<prefwindow id="checkbox-prefs"
+     title="&options.title;"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+<prefpane id="checkbox-pane" label="Checkbox Settings">
+  <preferences>
+    <preference id="pref_largeFont" name="extensions.checkbox.largeFont" type="bool" />
+  </preferences>
+ 
+  <hbox align="top">
+    <label control="largeFont" value="&options.largeFontDesc;"/>
+    <checkbox preference="pref_largeFont" id="largeFont" />
+  </hbox>
+</prefpane>
+ 
+</prefwindow>

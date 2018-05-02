@@ -1,4 +1,5 @@
 <!ENTITY selectCol.label "Selected">
 <!ENTITY selectCol.tooltiptext "Toggle selection">
+<!ENTITY options.title "Checkbox Column Options">
 <!ENTITY options.largeFontTitle "Large Font">
 <!ENTITY options.largeFontDesc "Use a large font in the messages list">
