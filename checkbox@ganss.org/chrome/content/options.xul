@@ -10,11 +10,16 @@
 <prefpane id="checkbox-pane" label="Checkbox Settings">
   <preferences>
     <preference id="pref_largeFont" name="extensions.checkbox.largeFont" type="bool" />
+    <preference id="pref_activeHead" name="extensions.checkbox.activeHead" type="bool" />
   </preferences>
  
   <hbox align="top">
     <label control="largeFont" value="&options.largeFontDesc;"/>
     <checkbox preference="pref_largeFont" id="largeFont" />
+  </hbox>
+  <hbox align="top">
+    <label control="activeHead" value="&options.activeHeadDesc;"/>
+    <checkbox preference="pref_activeHead" id="activeHead" />
   </hbox>
 </prefpane>
  

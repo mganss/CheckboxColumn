@@ -51,6 +51,9 @@ var checkboxColumn = (function () {
             if (data === "largeFont") {
                 this.setLargeFont();
             }
+            else if (data === "activeHead") {
+                this.setActiveHead();
+            }
         },
         setLargeFont: function () {
             var largeFont = this.branch.getBoolPref("largeFont");
@@ -69,6 +72,15 @@ var checkboxColumn = (function () {
             var display = threadTree.style.display;
             threadTree.style.display = "none";
             threadTree.style.display = display;
+        },
+        setActiveHead: function() {
+            var activeHead = this.branch.getBoolPref("activeHead");
+            var selectCol = document.getElementById("selectCol");
+            if (activeHead) {
+                selectCol.removeAttribute("disabled");
+            } else {
+                selectCol.setAttribute("disabled", "");
+            }
         }
     }
 
@@ -80,6 +92,7 @@ var checkboxColumn = (function () {
     function doOnceLoaded() {
         prefObserver.register();
         prefObserver.setLargeFont();
+        prefObserver.setActiveHead();
         var ObserverService = Components.classes["@mozilla.org/observer-service;1"].getService(Components.interfaces.nsIObserverService);
         ObserverService.addObserver(CreateDbObserver, "MsgCreateDBView", false);
     }
@@ -92,12 +105,15 @@ var checkboxColumn = (function () {
     }
 
     function columnHeaderClick(e) {
-        var treeView = this.parentElement.parentElement.boxObject.view;
-        var selection = treeView.selection;
-        if (treeView.rowCount === selection.count) {
-            selection.clearSelection();
-        } else {
-            selection.selectAll();
+        var disabled = this.hasAttribute("disabled");
+        if (!disabled) {
+            var treeView = this.parentElement.parentElement.boxObject.view;
+            var selection = treeView.selection;
+            if (treeView.rowCount === selection.count) {
+                selection.clearSelection();
+            } else {
+                selection.selectAll();
+            }
         }
     }
 
