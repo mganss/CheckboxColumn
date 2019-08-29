@@ -11,6 +11,10 @@
     list-style-image: url('chrome://checkbox/skin/someHeader.svg');
 }
 
+.selectColumnHeader .treecol-sortdirection {
+    list-style-image: inherit;
+}
+
 #threadTree.largeFont treechildren::-moz-tree-row {
     height: 48px;
 }

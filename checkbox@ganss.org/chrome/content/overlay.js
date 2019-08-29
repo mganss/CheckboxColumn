@@ -107,7 +107,7 @@ var checkboxColumn = (function () {
     function columnHeaderClick(e) {
         var disabled = this.hasAttribute("disabled");
         if (!disabled) {
-            var treeView = this.parentElement.parentElement.boxObject.view;
+            var treeView = this.parentElement.parentElement.boxObject.element.view;
             var selection = treeView.selection;
             if (treeView.rowCount === selection.count) {
                 selection.clearSelection();
@@ -118,7 +118,7 @@ var checkboxColumn = (function () {
     }
 
     function treeSelect(e) {
-        var treeView = this.boxObject.view;
+        var treeView = this.boxObject.element.view;
         var selection = treeView.selection;
         var selectCol = document.getElementById("selectCol");
         if (treeView.rowCount === selection.count) {
