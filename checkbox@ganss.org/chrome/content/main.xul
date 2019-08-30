@@ -7,7 +7,8 @@
       <treecol id="selectCol" class="treecol-image selectColumnHeader" width="48" 
         persist="hidden ordinal" fixed="true" cycler="true"
         currentView="unthreaded" position="1" ordinal="1"
-        tooltiptext="&selectCol.tooltiptext;" />
+        is="treecol-image"
+        label="&selectCol.label;" tooltiptext="&selectCol.tooltiptext;" />
       <splitter class="tree-splitter" />
     </treecols>
   </tree>
