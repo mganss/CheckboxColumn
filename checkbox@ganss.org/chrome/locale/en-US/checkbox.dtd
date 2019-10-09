@@ -2,6 +2,6 @@
 <!ENTITY selectCol.tooltiptext "Toggle selection">
 <!ENTITY options.title "Checkbox Column Options">
 <!ENTITY options.largeFontTitle "Large Font">
-<!ENTITY options.largeFontDesc "Use a large font in the messages list">
+<!ENTITY options.largeFontDesc "Use a large font in the messages list (may need restart after change to display correctly)">
 <!ENTITY options.activeHeadTitle "Active column head">
 <!ENTITY options.activeHeadDesc "Column head is clickable">

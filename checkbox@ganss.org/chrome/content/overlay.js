@@ -95,6 +95,8 @@ var checkboxColumn = (function () {
         prefObserver.setActiveHead();
         var ObserverService = Components.classes["@mozilla.org/observer-service;1"].getService(Components.interfaces.nsIObserverService);
         ObserverService.addObserver(CreateDbObserver, "MsgCreateDBView", false);
+        CreateDbObserver.observe(msgWindow.openFolder, null, null);
+        CreateDbObserver.observe(msgWindow.openFolder, null, null);
     }
 
     var CreateDbObserver = {

@@ -17,7 +17,7 @@
   "legacy": {
     "type": "xul",
     "options": {
-      "page": "chrome://checkbox/content/options.xul",
+      "page": "chrome://checkbox/content/preferences.xul",
       "open_in_tab": true
     }  
   }
