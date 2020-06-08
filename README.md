@@ -10,6 +10,8 @@ In Thunderbird, go to Tools → Add-ons → Extensions and search for "Checkbox"
 
 You can also download the add-on from its [detail page at Mozilla](https://addons.mozilla.org/thunderbird/addon/checkbox-column/) and then install using the [instructions here](http://kb.mozillazine.org/Extensions_(Thunderbird)).
 
+After installation, the check box column needs to be added to the message list. To do so, click the column picker button on the far right of the label bar to see a list of the available columns. Alternatively, you can right-click on any column label to display the list. From the list select "Selected" to add the check box column.
+
 ## Screenshots
 
 ### Large Font (default)
